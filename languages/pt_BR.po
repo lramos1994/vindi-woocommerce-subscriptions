@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vindi WooCommerce Subscriptions\n"
+"POT-Creation-Date: 2017-01-23 16:34-0200\n"
+"PO-Revision-Date: 2017-01-23 16:34-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-vindi-bank-slip-gateway.php:8
+msgid "Vindi - Boleto Bancário"
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:51
+#: includes/class-vindi-creditcard-gateway.php:144
+msgid "Selecione o País para visualizar as formas de pagamento."
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:56
+#: includes/class-vindi-creditcard-gateway.php:149
+msgid "Vindi não está disponível no seu País."
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:61
+msgid "Este método de pagamento não é aceito."
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:88
+#: includes/class-vindi-creditcard-gateway.php:43
+msgid "Habilitar/Desabilitar"
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:89
+msgid "Habilitar pagamento por Boleto Bancário com Vindi"
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:94
+#: includes/class-vindi-creditcard-gateway.php:49
+msgid "Título"
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:96
+#: includes/class-vindi-creditcard-gateway.php:51
+msgid "Título que o cliente verá durante o processo de pagamento."
+msgstr ""
+
+#: includes/class-vindi-bank-slip-gateway.php:97
+msgid "Boleto Bancário"
+msgstr ""
+
+#: includes/class-vindi-base-gateway.php:85
+msgid ""
+"O Pagamento foi cancelado devido a erro de configuração do meio de pagamento."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:13
+msgid "Vindi - Cartão de Crédito"
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:44
+msgid "Habilitar pagamento via Cartão de Crédito com a Vindi"
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:52
+msgid "Cartão de Crédito"
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:55
+msgid "Vendas Avulsas"
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:59
+msgid "Valor mínimo da parcela"
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:61
+msgid "Valor mínimo da parcela, não deve ser inferior a R$ 5,00."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:65
+msgid "Número máximo de parcelas"
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:67
+msgid ""
+"Número máximo de parcelas para vendas avulsas. Deixe em 1x para desativar o "
+"parcelamento."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:157
+msgid ""
+"Estamos enfrentando problemas técnicos no momento. Tente novamente mais "
+"tarde ou entre em contato."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:195
+msgid "Quantidade de Parcelas requerido."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:201
+msgid "A Quantidade de Parcelas escolhidas é inválida."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:211
+msgid "Nome do Portador do Cartão de Crédito requerido."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:212
+msgid "Número do Cartão de Crédito requerido."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:213
+msgid "Código de Segurança do Cartão requerido."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:214
+msgid "Mês de Validade do Cartão requerido."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:215
+msgid "Ano de Validade do Cartão requerido."
+msgstr ""
+
+#: includes/class-vindi-creditcard-gateway.php:227
+msgid ""
+"Este cartão de crédito já expirou. Tente novamente com outro cartão de "
+"crédito dentro do prazo de validade."
+msgstr ""
+
+#: includes/class-vindi-dependencies.php:55
+#, php-format
+msgid ""
+"WooCommerce Vindi Subscriptions depende da última versão do %s para "
+"funcionar!"
+msgstr ""
+
+#: includes/class-vindi-payment.php:77
+msgid "O produto selecionado não é uma assinatura."
+msgstr ""
+
+#: includes/class-vindi-payment.php:149 includes/class-vindi-payment.php:153
+msgid "Falha ao registrar o usuário. Verifique os dados e tente novamente."
+msgstr ""
+
+#: includes/class-vindi-payment.php:244
+msgid ""
+"Falha ao processar carrinho de compras. Verifique os itens escolhidos e "
+"tente novamente."
+msgstr ""
+
+#: includes/class-vindi-payment.php:310
+msgid ""
+"Falha ao registrar o método de pagamento. Verifique os dados e tente "
+"novamente."
+msgstr ""
+
+#: includes/class-vindi-payment.php:338
+msgid "Ocorreu um erro ao gerar o seu pedido!"
+msgstr ""
+
+#: includes/class-vindi-payment.php:354
+msgid ""
+"Falha ao recuperar informações sobre o produto na Vindi. Verifique os dados "
+"e tente novamente."
+msgstr ""
+
+#: includes/class-vindi-payment.php:509 includes/class-vindi-payment.php:540
+#, php-format
+msgid "Pagamento Falhou. (%s)"
+msgstr ""
+
+#: includes/class-vindi-payment.php:613
+#: includes/class-vindi-webhook-handler.php:140
+msgid "O Pagamento foi realizado com sucesso pela Vindi."
+msgstr ""
+
+#: includes/class-vindi-payment.php:616
+msgid "Aguardando pagamento do pedido."
+msgstr ""
+
+#: includes/class-vindi-product-subscription.php:21
+msgid "Assinar"
+msgstr ""
+
+#: includes/class-vindi-settings.php:67
+#: templates/admin-gateway-settings.html.php:12
+#: templates/admin-settings.html.php:12
+msgid "Vindi"
+msgstr ""
+
+#: includes/class-vindi-settings.php:85
+msgid "Ver Logs"
+msgstr ""
+
+#: includes/class-vindi-settings.php:86
+msgid "Saiba mais"
+msgstr ""
+
+#: includes/class-vindi-settings.php:88
+msgid "Não possui uma conta?"
+msgstr ""
+
+#: includes/class-vindi-settings.php:92
+msgid "Chave da API Vindi"
+msgstr ""
+
+#: includes/class-vindi-settings.php:94
+msgid "A Chave da API de sua conta na Vindi. "
+msgstr ""
+
+#: includes/class-vindi-settings.php:98
+msgid "Emissão de NFe's"
+msgstr ""
+
+#: includes/class-vindi-settings.php:99
+msgid "Enviar informações para emissão de NFe's"
+msgstr ""
+
+#: includes/class-vindi-settings.php:101
+#, php-format
+msgid ""
+"Envia informações de RG e Inscrição Estadual para Emissão de NFe's com "
+"nossos parceiros. %s"
+msgstr ""
+
+#: includes/class-vindi-settings.php:105
+msgid "Número de ciclos dos cupons de desconto"
+msgstr ""
+
+#: includes/class-vindi-settings.php:107
+msgid ""
+"Número de ciclos que os cupons de desconto serão aplicados nas assinaturas."
+msgstr ""
+
+#: includes/class-vindi-settings.php:126
+msgid "Status de conclusão do pedido"
+msgstr ""
+
+#: includes/class-vindi-settings.php:128
+msgid ""
+"Status que o pedido deverá ter após receber a confirmação de pagamento da "
+"Vindi."
+msgstr ""
+
+#: includes/class-vindi-settings.php:137
+msgid "Testes"
+msgstr ""
+
+#: includes/class-vindi-settings.php:141
+msgid "Log de Depuração"
+msgstr ""
+
+#: includes/class-vindi-settings.php:142
+msgid "Ativar Logs"
+msgstr ""
+
+#: includes/class-vindi-settings.php:144
+#, php-format
+msgid "Ative esta opção para habilitar logs de depuração do servidor. %s"
+msgstr ""
+
+#: templates/admin-gateway-settings.html.php:6
+#: templates/admin-settings.html.php:6
+msgid "Vindi WooCommerce Assinaturas Desativado"
+msgstr ""
+
+#: templates/admin-gateway-settings.html.php:7
+#: templates/admin-settings.html.php:7
+#, php-format
+msgid ""
+"Um certificado SSL é necessário para ativar este método de pagamento em modo "
+"de produção. Por favor, verifique se um certificado SSL está instalado em "
+"seu servidor e ative a opção %s."
+msgstr ""
+
+#: templates/admin-gateway-settings.html.php:7
+#: templates/admin-settings.html.php:7
+msgid "Forçar finalização segura"
+msgstr ""
+
+#: templates/admin-gateway-settings.html.php:13
+#: templates/admin-settings.html.php:13
+msgid "Utiliza a rede Vindi como meio de pagamento recorrente para cobranças."
+msgstr ""
+
+#: templates/admin-product-subscription-fields.html.php:24
+msgid "Plano da Vindi"
+msgstr ""
+
+#: templates/admin-product-subscription-fields.html.php:26
+msgid "Selecione o plano da Vindi que deseja relacionar a esse produto"
+msgstr ""
+
+#: templates/admin-settings.html.php:27
+msgid "Link de configuração dos Eventos da Vindi"
+msgstr ""
+
+#: templates/admin-settings.html.php:30
+msgid ""
+"Copie esse link e utilize-o para configurar os eventos nos Webhooks da Vindi."
+msgstr ""
+
+#: templates/admin-settings.html.php:38
+msgid "Teste de conexão com a Vindi"
+msgstr ""
+
+#: templates/admin-settings.html.php:44
+msgid "Conectado com sucesso!"
+msgstr ""
+
+#: templates/admin-settings.html.php:45
+#, php-format
+msgid "Conta: <strong>%s</strong>."
+msgstr ""
+
+#: templates/admin-settings.html.php:46
+#, php-format
+msgid "Status: <strong>%s</strong>."
+msgstr ""
+
+#: templates/allow_switching_is_activated.html.php:4
+#: templates/allow_switching_is_activated.html.php:5
+msgid "Allow Switching"
+msgstr ""
+
+#: templates/allow_switching_is_activated.html.php:5
+msgid ""
+"Ainda não é possível fazer Upgrade/Downgrade de Assinaturas, isso pode "
+"causar divergência nos valores das assinaturas. Desative a opção "
+msgstr ""
+
+#: templates/bankslip-checkout.html.php:5
+#: templates/creditcard-checkout.html.php:5
+msgid "MODO DE TESTES"
+msgstr ""
+
+#: templates/bankslip-checkout.html.php:8
+#: templates/creditcard-checkout.html.php:7
+msgid ""
+"Sua conta na Vindi está em <strong>Modo Trial</strong>. Este modo é proposto "
+"para a realização de testes e, portanto, nenhum pedido será efetivamente "
+"cobrado."
+msgstr ""
+
+#: templates/bankslip-checkout.html.php:14
+msgid ""
+"Um Boleto Bancário será enviado mensalmente para o seu endereço de e-mail."
+msgstr ""
+
+#: templates/bankslip-download.html.php:7
+msgid "Baixar boleto"
+msgstr ""
+
+#: templates/bankslip-download.html.php:9
+msgid ""
+"Por favor, clique no botão ao lado para realizar o download do Boleto "
+"Bancário."
+msgstr ""
+
+#: templates/bankslip-download.html.php:11
+msgid ""
+"Você pode imprimi-lo e pagá-lo via internet banking ou em agências bancárias "
+"e lotéricas."
+msgstr ""
+
+#: templates/bankslip-download.html.php:13
+msgid "Após recebermos a confirmação do pagamento, seu pedido será processado."
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:18
+msgid "Cartão Cadastrado"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:29
+msgid "usar outro cartão"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:37
+msgid "Nome Impresso no Cartão"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:45
+msgid "Número do Cartão de Crédito"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:54
+msgid "Validade do Cartão"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:73
+msgid "Código de Segurança do Cartão"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:80
+msgid "3 ou 4 dígitos localizados do verso do cartão."
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:87
+msgid "Número de Parcelas"
+msgstr ""
+
+#: templates/creditcard-checkout.html.php:92
+#, php-format
+msgid "%dx de %s"
+msgstr ""
+
+#: templates/manual_renew_is_deactivated.html.php:4
+msgid "Renovação Automática de Assinaturas"
+msgstr ""
+
+#: templates/manual_renew_is_deactivated.html.php:5
+msgid "Accept Manual Renewals"
+msgstr ""
+
+#: templates/manual_renew_is_deactivated.html.php:5
+msgid "Turn off Automatic Payments"
+msgstr ""
+
+#: templates/manual_renew_is_deactivated.html.php:5
+msgid ""
+"Para que a Vindi cuide das renovações das assinaturas você precisa habilidar "
+"as opções \""
+msgstr ""
+
+#: vindi-woocommerce-subscriptions.php:187
+msgid "-- Selecione --"
+msgstr ""
+
+#: vindi-woocommerce-subscriptions.php:316
+msgid "Configurações"
+msgstr ""
+
+#: vindi-woocommerce-subscriptions.php:350
+msgid "Você só pode adicionar produtos que façam parte do mesmo plano!"
+msgstr ""
