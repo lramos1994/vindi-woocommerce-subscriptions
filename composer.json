@@ -1,0 +1,11 @@
+{
+    "name": "lramos/vindi-woocommerce-subscriptions",
+    "type": "wordpress-muplugin",
+    "authors": [
+        {
+            "name": "Lucas Ramos",
+            "email": "lucas_ramos1994@hotmail.com"
+        }
+    ],
+    "require": {}
+}
