@@ -4,6 +4,10 @@ if ( ! function_exists( 'get_plugins' ) ) {
   require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 }
 
+if(!defined('WP_CONTENT_DIR')) {
+    define('WP_CONTENT_DIR', ABSPATH . 'wp-content');
+}
+
 class Vindi_Dependencies
 {
     /**
@@ -70,7 +74,7 @@ class Vindi_Dependencies
     public static function plugins_are_activated($plugins)
     {
         foreach($plugins as $path => $plugin) {
-            $plugin_data   = get_plugin_data(ABSPATH . "wp-content/plugins/" . $path);
+            $plugin_data   = get_plugin_data(WP_CONTENT_DIR . "/plugins/" . $path);
             $version_match = $plugin['version'];
 
             if(!in_array($path, self::$active_plugins ) && !array_key_exists($path, self::$active_plugins)) {
